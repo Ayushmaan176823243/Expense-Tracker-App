@@ -22,6 +22,10 @@ const StackLayout = () => {
         name="(modals)/privacyandpolicyModal"
         options={{ presentation: "modal" }}
       />
+      <Stack.Screen
+        name="(modals)/searchmodal"
+        options={{ presentation: "modal" }}
+      />
     </Stack>
   );
 };
